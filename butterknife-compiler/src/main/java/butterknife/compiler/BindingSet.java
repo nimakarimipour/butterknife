@@ -40,6 +40,7 @@ import static javax.lang.model.element.Modifier.PUBLIC;
 
 /** A set of all the bindings requested by a single type. */
 final class BindingSet {
+
   static final ClassName UTILS = ClassName.get("butterknife.internal", "Utils");
   private static final ClassName VIEW = ClassName.get("android.view", "View");
   private static final ClassName CONTEXT = ClassName.get("android.content", "Context");

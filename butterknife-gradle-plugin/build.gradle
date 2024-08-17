@@ -19,4 +19,3 @@ dependencies {
   testImplementation deps.compiletesting
 }
 
-apply from: rootProject.file('gradle/gradle-mvn-push.gradle')

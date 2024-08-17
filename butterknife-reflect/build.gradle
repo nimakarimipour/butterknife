@@ -26,4 +26,3 @@ dependencies {
   api project(':butterknife-runtime')
 }
 
-apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
